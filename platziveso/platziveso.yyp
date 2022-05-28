@@ -1,6 +1,8 @@
 {
   "resources": [
+    {"id":{"name":"snd_introloop","path":"sounds/snd_introloop/snd_introloop.yy",},"order":0,},
     {"id":{"name":"spr_final","path":"sprites/spr_final/spr_final.yy",},"order":0,},
+    {"id":{"name":"snd_menuseleccion","path":"sounds/snd_menuseleccion/snd_menuseleccion.yy",},"order":0,},
     {"id":{"name":"obj_final","path":"objects/obj_final/obj_final.yy",},"order":0,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":2,},
     {"id":{"name":"obj_niveltest","path":"objects/obj_niveltest/obj_niveltest.yy",},"order":0,},
@@ -22,6 +24,8 @@
     {"id":{"name":"r3_MenuSeleccion","path":"rooms/r3_MenuSeleccion/r3_MenuSeleccion.yy",},"order":2,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":3,},
     {"id":{"name":"spr_introLoop","path":"sprites/spr_introLoop/spr_introLoop.yy",},"order":0,},
+    {"id":{"name":"snd_creditos","path":"sounds/snd_creditos/snd_creditos.yy",},"order":0,},
+    {"id":{"name":"snd_intro","path":"sounds/snd_intro/snd_intro.yy",},"order":0,},
     {"id":{"name":"spr_menu","path":"sprites/spr_menu/spr_menu.yy",},"order":1,},
     {"id":{"name":"obj_menuseleccion","path":"objects/obj_menuseleccion/obj_menuseleccion.yy",},"order":4,},
     {"id":{"name":"obj_mentor","path":"objects/obj_mentor/obj_mentor.yy",},"order":1,},
@@ -87,6 +91,12 @@
     {"folderPath":"folders/Scripts/r0_Creditos.yy","order":5,"resourceVersion":"1.0","name":"r0_Creditos","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/r0_Creditos.yy","order":5,"resourceVersion":"1.0","name":"r0_Creditos","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/r3_MenuSeleccion/Elementos.yy","order":5,"resourceVersion":"1.0","name":"Elementos","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sounds/r0_Creditos.yy","order":1,"resourceVersion":"1.0","name":"r0_Creditos","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sounds/r1_IntroLoop.yy","order":2,"resourceVersion":"1.0","name":"r1_IntroLoop","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sounds/r2_Intro.yy","order":3,"resourceVersion":"1.0","name":"r2_Intro","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sounds/r3_MenuSeleccion.yy","order":4,"resourceVersion":"1.0","name":"r3_MenuSeleccion","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sounds/r4_NivelTest.yy","order":5,"resourceVersion":"1.0","name":"r4_NivelTest","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sounds/r5_Final.yy","order":6,"resourceVersion":"1.0","name":"r5_Final","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
