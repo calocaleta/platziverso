@@ -8,7 +8,8 @@ function scr_getinput(){
 		up = gamepad_button_check(0,gp_padu);
 		down = gamepad_button_check(0,gp_padd);
 		attack = gamepad_button_check(0,gp_face3);
-		pause = gamepad_button_check_pressed(0,gp_start);
+		attack2 = gamepad_button_check(0,gp_face4);
+		enter = gamepad_button_check_pressed(0,gp_start);
 		up_tap = gamepad_button_check_pressed(0,gp_padu);
 		down_tap = gamepad_button_check_pressed(0,gp_padd);
 	}
@@ -18,7 +19,8 @@ function scr_getinput(){
 		left = keyboard_check(ord("A"));
 		up = keyboard_check(ord("W"));
 		down = keyboard_check(ord("S"));
-		attack = keyboard_check(ord("J "));
+		attack = keyboard_check(ord("Q"));
+		attack2 = keyboard_check(ord("E "));
 		enter = keyboard_check_released(vk_enter);
 		up_tap = keyboard_check_pressed(ord("W"));
 		down_tap = keyboard_check_pressed(ord("S"));

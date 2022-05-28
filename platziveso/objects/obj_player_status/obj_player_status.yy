@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_player_idle",
-    "path": "sprites/spr_player_idle/spr_player_idle.yy",
+    "name": "spr_player_status",
+    "path": "sprites/spr_player_status/spr_player_status.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,17 +22,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "r4_NivelTest",
-    "path": "folders/Objects/r4_NivelTest.yy",
+    "name": "BarraEstado",
+    "path": "folders/Objects/r4_NivelTest/BarraEstado.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_player",
+  "name": "obj_player_status",
   "tags": [],
   "resourceType": "GMObject",
 }
