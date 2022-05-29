@@ -3,9 +3,11 @@
 /*
 draw_text(10,10,string(mensaje));
 draw_text(10,20,string(mensajeanterior));
-draw_text(10,30,string(pw/500));
-draw_text(10,40,string(pw%500/1000));
 */
+//draw_text(10,10,string(hp));
+//draw_text(10,30,string(pw/500));
+//draw_text(10,40,string(pw%500/1000));
+
 
 
 if(pw > 500){
@@ -19,7 +21,7 @@ draw_sprite_ext(spr_like,like,255,518,1,1,0,-1,1);
 if(level != tmp_level){
 	//var tmp_like = instance_create_layer(250,518,"Instances_Superior",obj_like);
 	if(inicio){
-		mensaje="Excelente, acabas de cargar tu primer poder, puedes usarlo con la tecla E";
+		mensaje="Excelente, acabas de cargar tu primer poder, puedes usarlo con la tecla J";
 		inicio=false;
 	}
 	
@@ -41,6 +43,20 @@ if(!inicio){
 			mensaje=mensajeanterior;
 		}
 	}
+}
+
+if(hp < 0){
+	//Si se acaba la vida, se detiene el juego y va al Room de perder
+	audio_stop_sound(snd_background);
+	audio_play_sound(snd_lose,0,false);
+	instance_destroy();
+	instance_deactivate_all(true);
+/*	
+	obj_niveltest.fade_out = false;
+	current_alpha = 0;
+	alarm[1] = 180;
+*/
+
 }
 
 

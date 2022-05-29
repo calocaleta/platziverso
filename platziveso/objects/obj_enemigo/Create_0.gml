@@ -2,3 +2,5 @@
 // You can write your code in this editor
 state = scr_enemigo_idle;
 dir_x = 1;
+spd_enemigo=2;
+distancia=150;

@@ -2,8 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_pw(valor){
 	//No debe bajar menos de cero
-	if(valor<0 and (pw + valor < 0) ){
-		valor = 0;
+	if(pw < 0){
 		pw = 0;
 	}
 	
