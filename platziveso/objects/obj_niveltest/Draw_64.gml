@@ -25,6 +25,7 @@ draw_text_ext_transformed_color(80,450,cprofesordetalle,15,200,1,1,0,#0C1633,#0C
 
 draw_text_ext_transformed_color(597,449,cguiatitulo,6,1000,1,1,0,#7DA2C0,#7DA2C0,#7DA2C0,#7DA2C0,1);
 
+/*
 if(fade_out){
 	draw_set_alpha(current_alpha);
 	draw_rectangle_color(0,0,display_get_gui_width(),display_get_gui_height(),c_black,c_black,c_black,c_black,false);
@@ -34,3 +35,4 @@ if(fade_out){
 		//room_goto_next();
 	}
 }
+*/

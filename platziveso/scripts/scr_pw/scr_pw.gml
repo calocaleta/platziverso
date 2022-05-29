@@ -3,7 +3,7 @@
 function scr_pw(valor){
 	//No debe bajar menos de cero
 	if(pw < 0){
-		pw = 0;
+ 		pw = 0;
 	}
 	
 	if(pw == 0 and valor<0){

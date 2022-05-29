@@ -14,8 +14,8 @@
   "soundFile": "snd_lose.mp3",
   "duration": 5.77305,
   "parent": {
-    "name": "r3_MenuSeleccion",
-    "path": "folders/Sounds/r3_MenuSeleccion.yy",
+    "name": "r4_NivelTest",
+    "path": "folders/Sounds/r4_NivelTest.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_lose",

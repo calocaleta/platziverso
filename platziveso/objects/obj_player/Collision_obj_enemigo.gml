@@ -11,3 +11,4 @@ if(enemigo1){
 	enemigo1=false;
 }
 
+
