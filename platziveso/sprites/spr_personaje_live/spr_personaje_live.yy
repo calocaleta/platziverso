@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 187,
+  "bbox_right": 857,
   "bbox_top": 0,
-  "bbox_bottom": 111,
+  "bbox_bottom": 481,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 188,
-  "height": 112,
+  "width": 858,
+  "height": 482,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d03ee071-7c0b-4627-b76e-a3d26d047190","path":"sprites/spr_personaje_live/spr_personaje_live.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d03ee071-7c0b-4627-b76e-a3d26d047190","path":"sprites/spr_personaje_live/spr_personaje_live.yy",},"LayerId":{"name":"a82f311a-a37f-405e-9213-a3af02cb4f4e","path":"sprites/spr_personaje_live/spr_personaje_live.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_personaje_live","path":"sprites/spr_personaje_live/spr_personaje_live.yy",},"resourceVersion":"1.0","name":"d03ee071-7c0b-4627-b76e-a3d26d047190","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3c19cde4-e4b4-4460-8c88-1c84096c5905","path":"sprites/spr_personaje_live/spr_personaje_live.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3c19cde4-e4b4-4460-8c88-1c84096c5905","path":"sprites/spr_personaje_live/spr_personaje_live.yy",},"LayerId":{"name":"86d05d7e-6ea0-4ac4-a597-f911fab610bc","path":"sprites/spr_personaje_live/spr_personaje_live.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_personaje_live","path":"sprites/spr_personaje_live/spr_personaje_live.yy",},"resourceVersion":"1.0","name":"3c19cde4-e4b4-4460-8c88-1c84096c5905","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_personaje_live","path":"sprites/spr_personaje_live/spr_personaje_live.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"927cddc5-a68d-4e75-bb03-9cbef0b704e8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d03ee071-7c0b-4627-b76e-a3d26d047190","path":"sprites/spr_personaje_live/spr_personaje_live.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3b24122f-22c0-44ed-93d7-a5ede796fb2b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3c19cde4-e4b4-4460-8c88-1c84096c5905","path":"sprites/spr_personaje_live/spr_personaje_live.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a82f311a-a37f-405e-9213-a3af02cb4f4e","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"86d05d7e-6ea0-4ac4-a597-f911fab610bc","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

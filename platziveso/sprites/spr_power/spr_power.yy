@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 49,
+  "bbox_right": 280,
   "bbox_top": 0,
-  "bbox_bottom": 8,
+  "bbox_bottom": 5,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 50,
-  "height": 9,
+  "width": 281,
+  "height": 6,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,15 +24,15 @@
   "gridX": 1,
   "gridY": 16,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"6c78fde8-f7db-4681-8eaa-4fa24d69ebb5","path":"sprites/spr_power/spr_power.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6c78fde8-f7db-4681-8eaa-4fa24d69ebb5","path":"sprites/spr_power/spr_power.yy",},"LayerId":{"name":"cf89e7c5-24b8-4ff1-98e6-73b79ffc7108","path":"sprites/spr_power/spr_power.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_power","path":"sprites/spr_power/spr_power.yy",},"resourceVersion":"1.0","name":"6c78fde8-f7db-4681-8eaa-4fa24d69ebb5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"198b439b-0726-46f6-aa68-15cdc537aa40","path":"sprites/spr_power/spr_power.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"198b439b-0726-46f6-aa68-15cdc537aa40","path":"sprites/spr_power/spr_power.yy",},"LayerId":{"name":"289bb2b8-4bb2-4677-a7f5-d99dbe3bd2a4","path":"sprites/spr_power/spr_power.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_power","path":"sprites/spr_power/spr_power.yy",},"resourceVersion":"1.0","name":"198b439b-0726-46f6-aa68-15cdc537aa40","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_power","path":"sprites/spr_power/spr_power.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 5.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"0e3cec3c-298a-43dc-a8c4-ab227761d30e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6c78fde8-f7db-4681-8eaa-4fa24d69ebb5","path":"sprites/spr_power/spr_power.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"fa5ee572-e3c4-49e3-a481-4bfec171ec1f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"198b439b-0726-46f6-aa68-15cdc537aa40","path":"sprites/spr_power/spr_power.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,13 +65,13 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cf89e7c5-24b8-4ff1-98e6-73b79ffc7108","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"289bb2b8-4bb2-4677-a7f5-d99dbe3bd2a4","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": {
     "left": 0,
     "top": 0,
-    "right": 50,
-    "bottom": 47,
+    "right": 281,
+    "bottom": 6,
     "guideColour": [
       4294902015,
       4294902015,
