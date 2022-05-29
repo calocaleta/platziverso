@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_niveltest",
-    "path": "sprites/spr_niveltest/spr_niveltest.yy",
+    "name": "spr_panelinferior",
+    "path": "sprites/spr_panelinferior/spr_panelinferior.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,18 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "r4_NivelTest",
-    "path": "folders/Objects/r4_NivelTest.yy",
+    "name": "BarraEstado",
+    "path": "folders/Objects/r4_NivelTest/BarraEstado.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_niveltest",
+  "name": "obj_panelinferior",
   "tags": [],
   "resourceType": "GMObject",
 }
