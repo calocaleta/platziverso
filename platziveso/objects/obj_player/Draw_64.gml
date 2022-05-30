@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-draw_text(10,10,string(current_alpha));
+//draw_text(10,10, obj_config.nivelprincipal);
 /*
 draw_text(10,10,string(mensaje));
 draw_text(10,20,string(mensajeanterior));

@@ -25,7 +25,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Elementos",
-    "path": "folders/Objects/r3_MenuSeleccion/Elementos.yy",
+    "path": "folders/Objects/r4_NivelTest/r3_MenuSeleccion/Elementos.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_fondo",

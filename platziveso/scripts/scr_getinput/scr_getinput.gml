@@ -22,6 +22,8 @@ function scr_getinput(){
 		enter = keyboard_check_released(vk_enter);
 		up_tap = keyboard_check_pressed(ord("W"));
 		down_tap = keyboard_check_pressed(ord("S"));
+		right_tap = keyboard_check_pressed(ord("D"));
+		left_tap = keyboard_check_pressed(ord("A"));
 	}
 
 }

@@ -3,5 +3,6 @@
 scr_getinput();
 
 if(enter){
+	audio_play_sound(snd_lvlup,0,false);
 	room_goto_next();
 }

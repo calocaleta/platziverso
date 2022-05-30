@@ -3,5 +3,6 @@
 scr_getinput();
 
 if(enter){
-	game_restart();
+	//game_restart();
+	alarm[0] = 70;
 }

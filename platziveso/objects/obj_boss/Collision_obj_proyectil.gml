@@ -5,6 +5,7 @@ with(other){
 }
 if(obj_player.level>=2){
 	instance_destroy();
+	audio_play_sound(snd_aullido,0,false);
 	mensaje="Lo venciste! Felicitaciones!";
 	
 	if(obj_player.nivelprincipal == 0){
@@ -14,7 +15,7 @@ if(obj_player.level>=2){
 		instance_create_layer(2835,960,"Instances_Superior",obj_freddier);
 	}
 	else if(obj_player.nivelprincipal == 2){
-		instance_create_layer(2835,3235,"Instances_Superior",obj_freddier);
+		instance_create_layer(2835,1641,"Instances_Superior",obj_freddier);
 	}
 	
 }

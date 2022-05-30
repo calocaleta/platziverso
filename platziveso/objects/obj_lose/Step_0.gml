@@ -18,6 +18,7 @@ if(selected_option == 0){
 		audio_play_sound(snd_lvlup,0,false);
 	}
 	if(enter){
+		//obj_config.nivelprincipal = 0;
 		game_restart();
 	}
 }

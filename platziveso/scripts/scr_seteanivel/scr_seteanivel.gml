@@ -11,7 +11,13 @@ function scr_seteanivel(id_nivel){
 	else if(id_nivel == 1){
 		obj_player.x = 30;
 		obj_player.y = 800;
-		camera_set_view_pos(view_camera[0],0,698);
+		camera_set_view_pos(view_camera[0],10,700);
 		obj_niveltest.ctitulo="NIVEL 1: Platziverso PICOSATELITE";
+	}
+	else if(id_nivel == 2){
+		obj_player.x = 30;
+		obj_player.y = 1600;
+		camera_set_view_pos(view_camera[0],10,1400);
+		obj_niveltest.ctitulo="NIVEL 2: Platziverso VILLA PLATZI";
 	}
 }
